@@ -2,7 +2,7 @@
 
 
 ## ⚔️ Usage ⚔️
-No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto tiling with help from AltSnap
+No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto tiling with help from AltSnap.  Hotkeys implementation is hacky and not reliable across every app.
 
 
 ## ✨ Essentials ✨
