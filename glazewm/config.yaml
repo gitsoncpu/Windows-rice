@@ -154,7 +154,13 @@ window_rules:
         window_class: { not_regex: 'OpusApp' }
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
-      - window_process: { equals: 'steam' }
+        
+# --- MISSING HYPHEN ADDED HERE ---
+  - commands: ['set-floating'] # Changed to set-floating, as requested
+    match:
+      - window_process: { equals: 'Image Eye' } # Rule for your specific app
+      
+        
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
 
