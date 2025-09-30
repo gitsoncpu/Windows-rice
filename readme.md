@@ -10,5 +10,7 @@ No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto 
 #### Yasb https://github.com/amnweb/yasb ``` Cosmic theme, slight tweaks  ```
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
-`` Settings -> Time & Language -> Date & Time ``
+
+##### Settings -> Time & Language -> Date & Time 
 <img width="900" height="76" alt="Screenshot 2025-09-30 021346" src="https://github.com/user-attachments/assets/937caf23-0ffb-4b2c-acb3-38f91354c0f9" />
+
