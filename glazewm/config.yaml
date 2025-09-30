@@ -161,22 +161,21 @@ binding_modes:
 keybindings:
 
 
-
+  # The 'toggle-floating' command is another item in the list
+  - commands: ['toggle-floating']  # Level 2: Two spaces before the hyphen (-)
+    bindings: ['alt+shift+space'] # Level 3: Four spaces before 'bindings'
 
 
   # Disables window management and all other keybindings until alt+shift+p
   # is pressed again.
-  # Kill GlazeWM process safely.
-  - commands: ['wm-exit']
-    bindings: ['alt+shift+e']
+  - commands: ['wm-toggle-pause']
+    bindings: ['alt+shift+v']
+
 
   # Re-evaluate configuration file.
   - commands: ['wm-reload-config']
     bindings: ['alt+shift+r']
 
-  # Redraw all windows.
-  - commands: ['wm-redraw']
-    bindings: ['alt+shift+w']
 
 
 
