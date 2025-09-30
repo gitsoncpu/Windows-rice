@@ -1,5 +1,7 @@
-<img width="2559" height="1439" alt="Screenshot 2025-09-30 013332" src="https://github.com/user-attachments/assets/391d1d80-a764-4432-acbc-382901e74b58" />
 
+<img width="1791" height="1007" alt="Screenshot 2025-09-30 030705" src="https://github.com/user-attachments/assets/b827c20f-e988-4449-91f0-0f2273c03d84" />
+
+![Untitled](https://github.com/user-attachments/assets/52c4a82b-3ae9-43b4-9c27-00d4c6d5e477)
 
 ## ⚔️ Usage ⚔️
 No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto tiling with help from AltSnap.  Hotkeys implementation is hacky and not reliable across every app.
