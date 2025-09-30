@@ -6,7 +6,7 @@ No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto 
 
 
 ## ✨ Essentials ✨
-#### GlazeWM https://github.com/glzr-io/glazewm\
-#### Yasb https://github.com/amnweb/yasb
+#### GlazeWM https://github.com/glzr-io/glazewm\ ``` tiling ```
+#### Yasb https://github.com/amnweb/yasb ``` top bar ```
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
