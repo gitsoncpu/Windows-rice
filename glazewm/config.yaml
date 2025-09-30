@@ -159,8 +159,10 @@ window_rules:
   - commands: ['set-floating'] # Changed to set-floating, as requested
     match:
       - window_process: { equals: 'Image Eye' } # Rule for your specific app
+      - window_title: { regex: '.*Steam.*' }
       
-        
+      
+      
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
 
@@ -182,9 +184,9 @@ keybindings:
   - commands: ['wm-reload-config']
     bindings: ['alt+shift+r']
 
-
-
-
+# --- MISSING HYPHEN ADDED HERE ---
+  - commands: ['wm-exit']
+    bindings: ['alt+shift+e']
  
 
  
