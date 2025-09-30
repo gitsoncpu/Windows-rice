@@ -34,12 +34,10 @@ bars:
       right: 4
     widgets:
       left: 
-      - "home"
-      - "active_window"
+      - "systray"
       center:
       - "clock"
       right:
-      - "systray"
       - "volume"
       - "notifications"
       - "power_menu"
@@ -161,7 +159,7 @@ widgets:
       class_name: "systray"
       label_collapsed: "\uf47d"
       label_expanded: "\uf460"
-      label_position: "right"
+      label_position: "left"
       icon_size: 16
       pin_click_modifier: "alt"
       show_unpinned: false
