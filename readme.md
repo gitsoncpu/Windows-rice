@@ -16,5 +16,5 @@ No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto 
  ## 🪟 Windows 🪟
 <img width="900" height="76" alt="Screenshot 2025-09-30 021346" src="https://github.com/user-attachments/assets/937caf23-0ffb-4b2c-acb3-38f91354c0f9" />
 
-``` Remove for redundancy: Settings -> Time & Language -> Date & Time ```
+``` Remove clock redundancy: Settings -> Time & Language -> Date & Time ```
 
