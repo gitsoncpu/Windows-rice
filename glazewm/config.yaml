@@ -60,7 +60,7 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: '#FF00FF'
+      color: '#33FFFF'
 
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
@@ -160,25 +160,21 @@ window_rules:
     match:
       - window_process: { equals: 'Image Eye' } # Rule for your specific app
       - window_title: { regex: '.*Steam.*' }
-      
-      
+      - window_title: { regex: '.*WireGuard.*' }
       
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
 
 keybindings:
 
-
   # The 'toggle-floating' command is another item in the list
   - commands: ['toggle-floating']  # Level 2: Two spaces before the hyphen (-)
-    bindings: ['alt+shift+space'] # Level 3: Four spaces before 'bindings'
-
+    bindings: ['shift+alt+space'] # Level 3: Four spaces before 'bindings'
 
   # Disables window management and all other keybindings until alt+shift+p
   # is pressed again.
   - commands: ['wm-toggle-pause']
     bindings: ['alt+shift+v']
-
 
   # Re-evaluate configuration file.
   - commands: ['wm-reload-config']
