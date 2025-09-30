@@ -9,4 +9,4 @@ No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto 
 #### GlazeWM https://github.com/glzr-io/glazewm\
 #### Yasb https://github.com/amnweb/yasb
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
-
+#### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
