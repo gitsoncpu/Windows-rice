@@ -3,3 +3,6 @@
 ## ✨ Essentials ✨
 #### GlazeWM https://github.com/glzr-io/glazewm\
 #### Yasb https://github.com/amnweb/yasb
+#### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
+## Usage
+No Glaze/Komorebi workspaces or hotkey window management. Purely mouse and auto tiling with help from AltSnap
