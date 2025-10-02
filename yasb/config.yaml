@@ -34,12 +34,13 @@ bars:
       right: 4
     widgets:
       left: 
-      - "systray"
+      - "notifications"
+      - "systray"    
       center:
       - "clock"
       right:
       - "volume"
-      - "notifications"
+     
       - "power_menu"
 widgets:
   media:
