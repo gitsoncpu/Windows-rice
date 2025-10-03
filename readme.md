@@ -1,4 +1,4 @@
-
+# Tbh this is bloat and just went back to defaults
 <img width="1791" height="1007" alt="Screenshot 2025-09-30 030705" src="https://github.com/user-attachments/assets/b827c20f-e988-4449-91f0-0f2273c03d84" />
 
 ![Untitled](https://github.com/user-attachments/assets/52c4a82b-3ae9-43b4-9c27-00d4c6d5e477)
