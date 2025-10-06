@@ -2,11 +2,11 @@ general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ['shell-exec yasb']
+  # startup_commands: ['shell-exec zebar']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
-  shutdown_commands: ['shell-exec taskkill /IM yasb /F']
+ 
 
   # Commands to run after the WM config is reloaded.
   config_reload_commands: []
@@ -37,7 +37,7 @@ general:
   # effect if `hide_method: 'hide'`.
   # - 'true': Show all windows (regardless of workspace).
   # - 'false': Only show windows from the currently shown workspaces.
-  show_all_in_taskbar: true
+  show_all_in_taskbar: false
 
 gaps:
   # Whether to scale the gaps with the DPI of the monitor.
@@ -48,7 +48,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '15px'
+    top: '20px'
     right: '20px'
     bottom: '20px'
     left: '20px'
@@ -60,7 +60,7 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: '#33FFFF'
+      color: '#8dbcff'
 
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
@@ -79,11 +79,10 @@ window_effects:
       enabled: false
       # Can be something like '95%' or '0.95' for slightly transparent windows.
       # '0' or '0%' is fully transparent (and, by consequence, unfocusable).
-      opacity: '92%'
+      opacity: '95%'
 
   # Visual effects to apply to non-focused windows.
   other_windows:
-    
     border:
       enabled: true
       color: '#a1a1a1'
@@ -93,8 +92,8 @@ window_effects:
       enabled: false
       style: 'square'
     transparency:
-      enabled: true
-      opacity: '98%'
+      enabled: false
+      opacity: '0%'
 
 window_behavior:
   # New windows are created in this state whenever possible.
@@ -110,7 +109,7 @@ window_behavior:
       centered: true
 
       # Whether to show floating windows as always on top.
-      shown_on_top: true
+      shown_on_top: false
 
     fullscreen:
       # Maximize the window if possible. If the window doesn't have a
@@ -134,8 +133,6 @@ workspaces:
 window_rules:
   - commands: ['ignore']
     match:
-      # Ignores any Zebar windows.
-      - window_process: { equals: 'zebar' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -154,37 +151,10 @@ window_rules:
         window_class: { not_regex: 'OpusApp' }
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
-        
-# --- MISSING HYPHEN ADDED HERE ---
-  - commands: ['set-floating'] # Changed to set-floating, as requested
+
+
+
+  - commands: ["set-floating"]
     match:
-      - window_process: { equals: 'Image Eye' } # Rule for your specific app
-      - window_title: { regex: '.*Steam.*' }
-      - window_title: { regex: '.*WireGuard.*' }
-      
-binding_modes:
-  # When enabled, the focused window can be resized via arrow keys or HJKL.
-
-keybindings:
-
-  # The 'toggle-floating' command is another item in the list
-  - commands: ['toggle-floating']  # Level 2: Two spaces before the hyphen (-)
-    bindings: ['shift+alt+space'] # Level 3: Four spaces before 'bindings'
-
-  # Disables window management and all other keybindings until alt+shift+p
-  # is pressed again.
-  - commands: ['wm-toggle-pause']
-    bindings: ['alt+shift+v']
-
-  # Re-evaluate configuration file.
-  - commands: ['wm-reload-config']
-    bindings: ['alt+shift+r']
-
-# --- MISSING HYPHEN ADDED HERE ---
-  - commands: ['wm-exit']
-    bindings: ['alt+shift+e']
- 
-
- 
-
-
+      - window_process: { equals: "Flow.Launcher" }
+        window_title: { equals: "Settings" }
