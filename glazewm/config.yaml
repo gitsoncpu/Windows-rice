@@ -158,3 +158,6 @@ window_rules:
     match:
       - window_process: { equals: "Flow.Launcher" }
         window_title: { equals: "Settings" }
+      - window_process: { equals: 'Image Eye' } # Rule for your specific app
+      - window_title: { regex: '.*Steam.*' }
+      - window_title: { regex: '.*WireGuard.*' }
