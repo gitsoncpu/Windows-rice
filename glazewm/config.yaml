@@ -161,3 +161,5 @@ window_rules:
       - window_process: { equals: 'Image Eye' } # Rule for your specific app
       - window_title: { regex: '.*Steam.*' }
       - window_title: { regex: '.*WireGuard.*' }
+      - window_title: { regex: '.*Anki.*' }
+      - window_title: { regex: '.*anki.*' }
