@@ -1,6 +1,4 @@
-
-
-<img width="2559" height="500" alt="Screenshot 2025-10-15 014808" src="https://github.com/user-attachments/assets/246d3863-dce0-4540-bda8-910b520034bc" />
+<img width="2560" height="1440" alt="Screenshot 2025-10-15 015051" src="https://github.com/user-attachments/assets/9ae9abcf-358b-4061-9291-3debbe33c745" />
 
 ## ✨ Basic stuff ✨
 
@@ -9,7 +7,6 @@
 #### Komorebi https://github.com/LGUG2Z/komorebi ``` tiling ```
 #### Yasb https://github.com/amnweb/yasb ``` Cosmic theme, slight tweaks  ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
-
 
 ### uBlock elements
 ```
