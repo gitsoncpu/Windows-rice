@@ -2,6 +2,7 @@
 
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
+#### Netlimiter 4 + crack ``` Vladimir Putin #2 - XLEVD-PNASB-6A3BD-Z72GJ-SPAH7 ```
 ## 4060 MSI Afterburner undervolt -> 900mV to 2550MHz
 <img width="786" height="543" alt="Screenshot 2025-10-25 103756" src="https://github.com/user-attachments/assets/d84f3fa2-676f-4ab4-8397-4a8a1352d506" />
 
