@@ -3,12 +3,6 @@
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
 
-
-##### GlazeWM https://github.com/glzr-io/glazewm ``` tiling ```
-##### Komorebi https://github.com/LGUG2Z/komorebi ``` tiling ```
-##### Yasb https://github.com/amnweb/yasb ``` bar  ```
-
-
 ### uBlock elements
 ```
 music.youtube.com##.cast-button.style-scope.ytmusic-cast-button
