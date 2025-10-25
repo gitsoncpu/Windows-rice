@@ -1,10 +1,13 @@
 ## ✨ Basic stuff ✨
 
 #### AltSnap https://github.com/RamonUnch/AltSnap ``` fork of AltDrag ```
-#### GlazeWM https://github.com/glzr-io/glazewm ``` tiling ```
-#### Komorebi https://github.com/LGUG2Z/komorebi ``` tiling ```
-#### Yasb https://github.com/amnweb/yasb ``` Cosmic theme, slight tweaks  ```
 #### MSEdgeRedirct https://github.com/rcmaehl/MSEdgeRedirect ``` forces windows search to default browser ```
+
+
+##### GlazeWM https://github.com/glzr-io/glazewm ``` tiling ```
+##### Komorebi https://github.com/LGUG2Z/komorebi ``` tiling ```
+##### Yasb https://github.com/amnweb/yasb ``` bar  ```
+
 
 ### uBlock elements
 ```
